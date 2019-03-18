@@ -1,0 +1,197 @@
+﻿body {
+    
+}
+/*#adres {
+    display:none;
+}*/
+.modal-content {
+    box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+}
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*#navDiv {
+    margin: 0px 40px 0px 40px;
+}*/
+/*nav {
+    height: 70px;
+}*/
+.navbar-brand, footer{
+    font-family: 'Marck Script', cursive;
+}
+
+h1, h3, #adresModalBaslik h5, #mainNav .navbar-nav > li.nav-item > a {
+    font-family: 'Lemonada', cursive;
+}
+* {
+    font-family:Bellota;
+    /*font-family: Allura;*/
+    /*font-family: Amita;*/
+    /*font-family: 'Srisakdi', cursive;*/
+    /*font-family: 'Vidaloka', serif;*/
+    /*font-family: 'Gabriela', serif;*/
+    /*font-family: 'Alegreya', serif;*/
+    /*font-family: 'Arbutus Slab', serif;*/
+    /*font-family: 'Belleza', sans-serif;*/
+    /*font-family: 'Lemonada', cursive;*/
+    /*font-weight:100 !important;*/
+   
+    /*font-family: 'Neuton', serif;*/
+    /*font-family: 'Philosopher', sans-serif;*/
+    /*font-family: 'Srisakdi', cursive;*/
+}
+
+
+.mt-10 {
+    margin-top: 60px;
+}
+
+
+.bosluk {
+    height: 100px;
+}
+
+.mb-10 {
+    margin-bottom: 60px;
+}
+
+
+.box {
+    padding: 25px;
+    height: 250px;
+    /*background-color:greenyellow;*/
+  
+}
+
+.kart {
+    width: 200px;
+    height: 200px;
+    /*background-color:brown;*/
+    /*border: 2px solid transparent;*/
+    border-radius: 20%;
+    margin: auto;
+    box-shadow: 0 8px 9px 0 rgba(0,0,0,.22),0 12px 25px 0 rgba(0,0,0,.21) !important;
+    filter: grayscale(0%);
+}
+
+
+#kartlarim a:hover {
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+#box:hover div {
+    width: 202px;
+    height: 202px;
+    filter: grayscale(80%);
+}
+/*p:hover {
+    cursor: pointer;
+}*/
+
+p {
+    line-height: 1.5;
+    margin: 30px 0;
+}
+.navbar-brand {
+    font-size:26px !important;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+    padding: 10px 20px;
+    font-size: 14px !important;
+    color: #fff;
+
+}
+
+    #mainNav .navbar-nav > li.nav-item > a:hover {
+        color: rgba(255,255,255,.6);
+        /*background: #1a1a1a;*/
+        text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+    }
+
+#mainNav .navbar-brand {
+    padding: 10px 20px;
+    color: #fff;
+}
+
+
+/*#mainNav .navbar-toggler {
+    font-size: 12px;
+    font-weight: 800;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #343a40;
+}*/
+
+
+
+/*footer {
+    padding: 50px 0 65px;
+}*/
+
+    footer .list-inline {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer .copyright {
+        font-size: 20px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+
+.twitter {
+    color: #00aced;
+}
+.instagram {
+    color: #bc2a8d;
+    /*------*/
+    /*background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);*/
+    /*background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );*/
+    /*------*/
+    /*background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
+}
+
+.github {
+    color: #212529;
+}
+
+/*Mekan Seç css*/
+.flex-box {
+    display: flex;
+    flex-direction: column;
+}
+
+    .flex-box > div {
+        /*background: #1F1C2C; 
+        background: -webkit-linear-gradient(to left, #928DAB, #1F1C2C); 
+        background: linear-gradient(to left, #928DAB, #1F1C2C);*/
+        /*background: #232526; 
+        background: -webkit-linear-gradient(to left, #414345, #232526); 
+        background: linear-gradient(to left, #414345, #232526);*/
+        background: #000000; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #ffffff, #858585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 10px;
+        padding: 30px;
+        color: black;
+    }
+
+
+
